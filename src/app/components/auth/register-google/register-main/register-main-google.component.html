@@ -1,0 +1,9 @@
+<div *ngIf="isRole('company')">
+    <h2>Company</h2>
+    <app-register-company-google></app-register-company-google>
+</div>
+
+<div *ngIf="isRole('grocer')">
+    <h2>Grocer</h2>
+    <app-register-grocer-google></app-register-grocer-google>
+</div>

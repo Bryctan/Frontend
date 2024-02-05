@@ -1,0 +1,51 @@
+
+<!-- 
+
+<div class="content">
+    <div class="form">
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <input type="email" formControlName="email_grocer" placeholder="Correo electrónico">
+            <input type="password" formControlName="password_grocer" placeholder="Contraseña">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+
+ -->
+
+
+<br>
+<h1></h1>
+<div class="text-center card container col-md-3">
+    <div class="mt-5 mb-5">
+        <img class="mb-4" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72"
+            height="57">
+        <h1 class="h3 mb-3 fw-normal">Iniciar sesión</h1>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="email_grocer">
+            <label for="floatingInput">Correo electrónico</label>
+        </div>
+        <div class="form-floating mt-1">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" formControlName="password_grocer">
+            <label for="floatingPassword">Contraseña</label>
+        </div>
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Recordarme
+            </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesión</button>
+        </form>
+        <div class="or-container">
+            <div class="line-separator"></div>
+            <div class="or-label">or</div>
+            <div class="line-separator"></div>
+        </div>
+        <div class="row">
+            <button class="btn btn-lg btn-google btn-block text-uppercase btn-outline" (click)="loginGoogle()">
+                <img src="https://img.icons8.com/color/22/000000/google-logo.png"> Sing in Google
+            </button>
+        </div>
+    </div>
+</div>

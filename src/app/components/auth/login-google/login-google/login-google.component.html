@@ -1,0 +1,11 @@
+<p>login-google works!</p>
+
+<div *ngIf="isRole('company')">
+    <h2>Company</h2>
+    <app-login-google-company></app-login-google-company>
+</div>
+
+<div *ngIf="isRole('grocer')">
+    <h2>Grocer</h2>
+    <app-login-google-grocer></app-login-google-grocer>
+</div>
