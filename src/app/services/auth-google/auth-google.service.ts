@@ -20,7 +20,7 @@ export class AuthGoogleService {
     const config: AuthConfig = {
       issuer: 'https://accounts.google.com',
       strictDiscoveryDocumentValidation: false,
-      clientId: '688827669354-4tl4pfphqpradg0vrrqar8p5aq9shb1m.apps.googleusercontent.com',
+      clientId: '688827669354-1gcp61ko865jdta6dducn19etk3aasmq.apps.googleusercontent.com',
       redirectUri: window.location.origin + ruta,
       scope: 'openid profile email',
     }
