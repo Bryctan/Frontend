@@ -15,7 +15,7 @@ export class LoginGoogleCompanyComponent {
   constructor(private client: ClientService, private router: Router, public auth: AuthService, private authGoogleService: AuthGoogleService) {
 
   }
-/*
+
   ngOnInit(): void {
     setTimeout(() => {
       this.validateAccess();
@@ -57,5 +57,5 @@ export class LoginGoogleCompanyComponent {
     this.authGoogleService.logout();
 
   }
-*/
+
 }
