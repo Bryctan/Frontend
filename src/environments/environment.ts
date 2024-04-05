@@ -1,4 +1,5 @@
 export const environment = {
-    url_auth: 'https://auth-service-tu0i.onrender.com',
-    url_logic: 'https://business-services.onrender.com'
+    url_auth: 'https://auth-proveerten.azurewebsites.net',
+    url_logic: 'https://logic-proveerten.azurewebsites.net',
+    url_chat: 'https://chat-proveerten.azurewebsites.net'
 };
